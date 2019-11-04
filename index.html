@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+          integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+<body>
+<main>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-lg-8 offset-lg-2 col-12 mt-5">
+                <div class="card mt-5 p-5">
+                    <div class="row">
+                        <div class="col-6 text-center pl-5">
+                            <img class="justify-content-center" src="images/photo_2019-11-03_16-18-48.jpg" alt="sigin">
+                        </div>
+                        <div class="col-5 offset-1">
+                            <h1 class="font-weight-bold">Sign up</h1>
+                                <div class="d-flex pt-4 mt-2"><i class="fas fa-user pt-1"></i><input id="username" class="d-block ml-3" type="text" placeholder="Your name"></div>
+                                <div class="d-flex pt-3 mt-2"><i class="fas fa-lock pt-1"></i><input id="password" class="d-block ml-3" type="password" placeholder="Password"></div>
+                                <input class="mt-4 mr-2 check" type="checkbox"><span class="remember">Remember me</span>
+                                <button onclick="login()" class="btn btn-primary d-block mt-4 px-4 py-2 disabled">Login</button>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-6 text-center">
+                            <p><a href="register.html"><u>Create an account</u></a></p>
+                        </div>
+                        <div class="col-5 d-flex offset-1">
+                            <span class="pr-2 pt-1">Or login with</span>
+                            <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+                            <a href="#"><i class="fab fa-twitter-square fa-2x pl-2"></i></a>
+                            <a href="#"><i class="fab fa-google-plus-square fa-2x pl-2" ></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+<script src="js/main.js"></script>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</html>
