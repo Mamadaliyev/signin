@@ -1,0 +1,33 @@
+body main .container .row .col-lg-8 .card {
+  border: none;
+  box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.5);
+}
+body main .container .row .col-lg-8 .card .row .col-6 img {
+  margin-top: 80px;
+  width: 100%;
+  height: 65%;
+  margin-bottom: 50px;
+}
+body main .container .row .col-lg-8 .card .row .col-6 div {
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+}
+body main .container .row .col-lg-8 .card .row .col-6 div input {
+  border: none;
+  outline: none;
+}
+body main .container .row .col-lg-8 .card .row .col-6 .check {
+  width: 17px;
+  height: 17px;
+}
+body main .container .row .col-lg-8 .card .row .col-6 .statement {
+  font-size: 14px;
+}
+body main .container .row .col-lg-8 .card .row .col-6 .statement a {
+  color: black;
+}
+body main .container .row .col-lg-8 .card .row .col-6 a {
+  color: black;
+}
+
+/*# sourceMappingURL=style2.css.map */
